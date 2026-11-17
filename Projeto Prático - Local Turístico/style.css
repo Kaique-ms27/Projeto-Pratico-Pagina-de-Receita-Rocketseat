@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -8,8 +9,7 @@
 }
 
 body {
-  max-width: 1120px;
-  width: 1120px;
+  width: 1280px;
   margin: 4px auto;
   padding: 88px 80px 137px;
   background: #F5F4F0;
@@ -28,6 +28,8 @@ h1 {
 }
 
 img {
+  width: 100%;
+  display: block;
   margin-top: 40px;
   margin-bottom: 24px;
   border-radius: 28px;
@@ -64,6 +66,10 @@ img {
   margin-bottom: 48px;
 }
 
+.card:last-child {
+  margin-bottom: 0;
+}
+
 h3 {
   padding-left: 10px;
 }
@@ -75,4 +81,8 @@ ul {
 
 ul li::marker {
   color: #333;
+}
+
+footer {
+  margin-top: 65px;
 }
